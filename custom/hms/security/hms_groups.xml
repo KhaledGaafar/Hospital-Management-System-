@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+
+    <!-- User Group -->
+    <record id="group_hms_user" model="res.groups">
+      <field name="name">HMS User</field>
+    </record>
+
+    <!-- Manager Group -->
+    <record id="group_hms_manager" model="res.groups">
+      <field name="name">HMS Manager</field>
+      <field name="implied_ids" eval="[(4, ref('group_hms_user'))]"/>
+    </record>
+
+  </data>
+</odoo>

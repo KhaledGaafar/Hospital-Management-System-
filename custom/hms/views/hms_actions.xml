@@ -1,0 +1,26 @@
+<odoo>
+<data>
+
+  <!-- Patient Action -->
+  <record id="hms_patient_action" model="ir.actions.act_window">
+    <field name="name">hms Properties</field>
+    <field name="res_model">hms.patient</field>
+    <field name="view_mode">list,form</field>
+  </record>
+    <!-- Department Action -->
+  <record id="hms_department_action" model="ir.actions.act_window">
+    <field name="name">hms Departments</field>
+    <field name="res_model">hms.department</field>
+    <field name="view_mode">list,form</field>
+  </record>
+
+  <!-- Doctor Action -->
+  <record id="hms_doctor_action" model="ir.actions.act_window">
+    <field name="name">hms Doctors</field>
+    <field name="res_model">hms.doctors</field>
+    <field name="view_mode">list,form</field>
+  </record>
+
+
+</data>
+</odoo>

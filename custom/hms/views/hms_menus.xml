@@ -1,0 +1,9 @@
+<odoo>
+  <menuitem id="hms_menu_root" name="Hospitals Management System">
+
+    <menuitem id="hms_patient_menu_action" action="hms_patient_action" name="Patients"/>
+    <menuitem id="hms_department_menu_action" action="hms_department_action" name="Departments"/>
+    <menuitem id="hms_doctor_menu_action" action="hms_doctor_action" name="Doctors" groups="hms.group_hms_manager"/>
+
+  </menuitem>
+</odoo>
